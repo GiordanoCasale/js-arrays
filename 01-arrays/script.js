@@ -55,3 +55,5 @@ for(let i = 0; i<teachers.length; i++){
 }
 const isTeachersEmpty = flag;
 console.log(isTeachersEmpty)
+
+
