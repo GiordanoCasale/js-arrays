@@ -35,3 +35,19 @@ console.log(teachers);
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 teachers.unshift("Sarah");
 console.log(teachers);
+// 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
+// e salvalo nella variabile lewisIndex
+
+
+// 8. Verifica se l'array teachers è vuoto
+// e salva il risultato nella variabile isTeachersEmpty
+const isTeachersEmpty = null;
+for(let i = 0; i<teachers.length; i++){
+  if(teachers[i] == "null"){
+    console.log("false")
+  }
+  else{
+    console.log("true")
+  }
+}
+console.log(isTeachersEmpty)
